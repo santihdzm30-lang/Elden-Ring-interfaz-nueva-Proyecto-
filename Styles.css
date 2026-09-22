@@ -3,7 +3,7 @@
    ========================================== */
 body {
     background: linear-gradient(rgba(10, 8, 15, 0.50), rgba(10, 8, 15, 0.65)), 
-                url('https://res.cloudinary.com/cook-becker/image/fetch/q_auto:good,f_auto,w_1920/https://candb.com/site/candb/images/artwork/elden-ring-view-on-tree-from-the-sea.jpg') no-repeat center center fixed;
+                url('https://imgs.search.brave.com/-51eqhFsCRX1LCMKu2CUiHhsFu9qLdF-4E8-Yrua03E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvZWxk/ZW4tcmluZy1jZWxl/c3RpYWwtYmFja2dy/b3VuZC1ud3pra3N6/MTc0emxubXRqLmpw/Zw') no-repeat center center fixed;
     background-size: cover;
     color: #f8f9fa; /* Blanco cálido brillante para máxima legibilidad */
     font-family: 'Cinzel', serif, system-ui, -apple-system, sans-serif;
