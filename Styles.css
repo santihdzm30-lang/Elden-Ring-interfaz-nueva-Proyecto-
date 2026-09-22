@@ -1,0 +1,146 @@
+/* ==========================================
+   CONFIGURACIÓN GENERAL Y FUENTES
+   ========================================== */
+body {
+    background: linear-gradient(rgba(10, 8, 15, 0.50), rgba(10, 8, 15, 0.65)), 
+                url('https://res.cloudinary.com/cook-becker/image/fetch/q_auto:good,f_auto,w_1920/https://candb.com/site/candb/images/artwork/elden-ring-view-on-tree-from-the-sea.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f8f9fa; /* Blanco cálido brillante para máxima legibilidad */
+    font-family: 'Cinzel', serif, system-ui, -apple-system, sans-serif;
+    font-size: 1.1rem; /* Texto más legible */
+    min-height: 100vh;
+}
+
+/* ==========================================
+   TIPOGRAFÍA Y TÍTULOS EN DORADO MITICO
+   ========================================== */
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    color: #ffe082 !important;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9), 0 0 12px rgba(255, 224, 130, 0.5);
+    font-weight: 700;
+}
+
+/* ==========================================
+   NAVEGACIÓN (NAVBAR)
+   ========================================== */
+.navbar {
+    background-color: rgba(10, 8, 15, 0.92) !important;
+    border-bottom: 2px solid #c5a059;
+    backdrop-filter: blur(8px);
+}
+
+.nav-link {
+    font-size: 1.15rem;
+    color: #e0e0e0 !important;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #ffe082 !important;
+    font-weight: 700;
+}
+
+/* ==========================================
+   TARJETAS Y ACORDEONES DESPLEGABLES
+   ========================================== */
+.accordion-item {
+    background-color: rgba(18, 15, 23, 0.88) !important;
+    border: 1px solid #c5a059 !important;
+    margin-bottom: 15px;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background-color: rgba(28, 24, 36, 0.95) !important;
+    color: #ffe082 !important;
+    font-size: 1.25rem;
+    font-weight: 700;
+    box-shadow: none !important;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #2a2335 !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid #c5a059;
+}
+
+.accordion-button::after {
+    filter: invert(1); /* Cambia el icono de desplegable a blanco */
+}
+
+.accordion-body {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* ==========================================
+   IMÁGENES DE JEFES Y PERSONAJES
+   ========================================== */
+.boss-img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border: 2px solid #c5a059;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+/* ==========================================
+   CAJAS DE DATOS CURIOSOS
+   ========================================== */
+.fact-box {
+    background-color: rgba(197, 160, 89, 0.15);
+    border-left: 4px solid #ffe082;
+    padding: 12px 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+/* ==========================================
+   BOTONES ESTILIZADOS
+   ========================================== */
+.btn-elden {
+    background-color: #8c6d2d;
+    color: #ffffff !important;
+    border: 1px solid #ffe082;
+    font-size: 1.15rem;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-elden:hover {
+    background-color: #ffe082;
+    color: #000000 !important;
+    font-weight: 700;
+    box-shadow: 0 0 15px rgba(255, 224, 130, 0.6);
+}
+
+/* ==========================================
+   FORMULARIOS E INSUMOS DE ENTRADA
+   ========================================== */
+.form-control:focus, .form-select:focus {
+    border-color: #ffe082 !important;
+    box-shadow: 0 0 8px rgba(255, 224, 130, 0.5) !important;
+}
+
+.form-range::-webkit-slider-thumb {
+    background: #ffe082;
+}
+
+.form-range::-moz-range-thumb {
+    background: #ffe082;
+}
+
+/* ==========================================
+   FOOTER (PIE DE PÁGINA)
+   ========================================== */
+footer {
+    background-color: rgba(5, 4, 7, 0.95);
+    border-top: 2px solid #c5a059;
+    font-size: 1.05rem;
+}
